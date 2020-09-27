@@ -59,8 +59,10 @@ class TabellerEnhetsTester {
 	void testreverser () {
 		
 		 int[] tabell = { 6, 4, 1 };
+		 int[] tabellTest = { 1, 4, 6 };
+		 
 			
-		 assertArrayEquals(tabell,Tabeller.reverser(tabell1));
+		 assertArrayEquals(tabell,Tabeller.reverser(tabellTest));
 		 assertArrayEquals(tabell2,Tabeller.reverser(tabell2));
 		 assertArrayEquals(tabell3,Tabeller.reverser(tabell3));
 	}
